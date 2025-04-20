@@ -1,0 +1,88 @@
+/* Estilos gerais */
+head, body {
+    margin: 20px;
+    border: 2px rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu div > img {
+    width: 150px;
+    display: block;
+    border: 20px solid rgba(246, 230, 197, 255);
+}
+
+.menu > div > ul {
+    list-style: none;
+    padding: 30px;
+    margin: 0px;
+    display: flex; 
+    gap: 20px; 
+}
+
+.menu > div > ul li a {
+    padding: 2px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.conteudo {
+    padding: 30px;
+    margin: 0px;
+    border: 2px rgb(255, 255, 255);
+}
+
+.produtores div img{
+    width: 500px;
+    display: block;
+    border: 20px solid rgba(246, 230, 197, 255);
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    padding: 1px 30px;
+}
+
+.cabecalho h3 {
+    font-family: Montserrat, sans-serif;
+    color: rgb(50, 50, 50);
+    margin-bottom: 10px;
+}
+
+.cabecalho ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho li a {
+    text-decoration: none;
+    color: #333;
+    font-family: Montserrat, sans-serif;
+    display: block;
+    margin-bottom: 5px;
+}
