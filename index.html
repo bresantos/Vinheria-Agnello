@@ -6,14 +6,18 @@
     <title>Vinheria Agnello</title>
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="icon" href="src/assets/imgs/logoAgnello.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <div id="Inicio">
-        <div class="menu">
-            <div>
-                <img src="src/assets/imgs/logoAgnelloSfundo.png" alt="Logo Vinheria Agnello">
-            </div>
-            <div>
+    <header>
+        <nav>
+            <div class="menu">
+                <div class="logo-titulo">
+                    <img src="src/assets/imgs/logoAgnelloSfundo.png" alt="Logo Vinheria Agnello">
+                    <h1>Vinheria Agnello</h1>
+                </div>
                 <ul>
                     <li><a href="/index.html">Início</a></li>
                     <li><a href="/src/pages/Historia.html">História</a></li>
@@ -22,79 +26,211 @@
                     <li><a href="/src/pages/SobreNos.html">Sobre Nós</a></li>
                 </ul>
             </div>
-        </div>
-        <hr>
+        </nav>
+    </header>
+    <main>
+
         <div class="conteudo">
-            <div class="destaque">
-                <div><h2>PROMO</h2></div><hr>
-                <div>
-                    <h2>Produtos</h2>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div><hr>
+            <section class="promocoes-container">
+                <h2 class="titulos-inicio">Promoções</h2>
+                <div class="promocoes">
+                    <article>
+                        <div class="grid-cartao">
+                            <img src="src/assets/imgs/produtos/Viñapeña Tempranillo.webp" alt="Viñapeña">
+                            <div class="info-vinho">
+                                <h3>Viñapeña Tempranillo</h3>
+                                <ul class="detalhes">
+                                    <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt=""> Vinho tinto</li>
+                                    <li><img src="src/assets/imgs/icones/espanha.png" alt=""> Espanha - Multirregional</li>
+                                    <li><img src="src/assets/imgs/icones/uva.png" alt=""> Tempranillo</li>
+                                </ul>
+                                <div class="preco">
+                                    <s>R$ 59,90</s> <strong>R$ 44,90</strong>
+                                </div>
+                            </div>
+                        </div>                   
+                    </article>
+                
+                    <article>
+                        <div class="grid-cartao">
+                            <img src="src/assets/imgs/produtos/Expedicion Single Vineyard Selection Cabernet Sauvignon Central Valley D.O. 2024.webp" alt="Expedicion">
+                            <div class="info-vinho">
+                                <h3>Expedicion Single Vineyard Selection 2024</h3>
+                                <ul class="detalhes">
+                                    <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt=""> Vinho tinto</li>
+                                    <li><img src="src/assets/imgs/icones/chile.png" alt=""> Chile - Valle Central</li>
+                                    <li><img src="src/assets/imgs/icones/uva.png" alt=""> Cabernet Sauvignon</li>
+                                </ul>
+                                <div class="preco">
+                                    <s>R$ 69,90</s> <strong>R$ 44,90</strong>
+                                </div>
+                            </div>
+                        </div>                  
+                    </article>
+                
+                    <article>
+                        <div class="grid-cartao">
+                            <img src="src/assets/imgs/produtos/La Grupa Gran Selección Malbec 2024.webp" alt="La Grupa">
+                            <div class="info-vinho">
+                                <h3>La Grupa Gran Selección Malbec 2024</h3>
+                                <ul class="detalhes">
+                                    <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt=""> Vinho tinto</li>
+                                    <li><img src="src/assets/imgs/icones/argentina.png" alt=""> Argentina - Mendoza</li>
+                                    <li><img src="src/assets/imgs/icones/uva.png" alt=""> Malbec</li>
+                                </ul>
+                                <div class="preco">
+                                    <s>R$ 59,90</s> <strong>R$ 39,90</strong>
+                                </div>
+                            </div>
+                        </div>                   
+                    </article>
+                
+                    <article>
+                        <div class="grid-cartao">
+                            <img src="src/assets/imgs/produtos/Portada Reserva Vinho Regional Lisboa 2021.webp" alt="Portada Reserva">
+                            <div class="info-vinho">
+                                <h3>Portada Reserva Vinho Regional Lisboa 2021</h3>
+                                <ul class="detalhes">
+                                    <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt=""> Vinho tinto</li>
+                                    <li><img src="src/assets/imgs/icones/portugal.png" alt=""> Portugal - Lisboa</li>
+                                    <li><img src="src/assets/imgs/icones/uva.png" alt=""> Uvas variadas</li>
+                                </ul>
+                                <div class="preco">
+                                    <s>R$ 129,90</s> <strong>R$ 99,90</strong>
+                                </div>
+                            </div>
+                        </div>                   
+                    </article>
+                </div>
+            </section>
+            <hr>
+
+            <section class="produtores-container">
+                <h2 class="titulos-inicio">Produtores</h2>
+            
                 <div class="produtores">
-                    <h2>Produtores</h2>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>  
+                    <div class="grid-cartao">
+                        <h4>Vinhos Pampa del Sur</h4>
+                        <img src="src/assets/imgs/produtores/1.jpg" alt="Vinhos Pampa del Sur">
+                        <ul class="detalhes">
+                            <li><img src="src/assets/imgs/icones/argentina.png" alt="origem"> Argentina - Mendoza</li>
+                            <li><img src="src/assets/imgs/icones/uva.png" alt="uvas cultivadas"> Malbec, Bonarda</li>
+                            <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt="tipos de vinho"> Tinto seco, Rosé suave</li>
+                            <li><img src="src/assets/imgs/icones/historia.png" alt="historia"> Localizada nas vastas planícies ensolaradas de Mendoza, a vinícola Pampa del Sur é reconhecida por seus tintos encorpados e rosés elegantes. Com foco em práticas sustentáveis, seus vinhos refletem a alma da terra argentina.</li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-cartao">
+                        <h4>Vinícola Tierra del Sol</h4>
+                        <img src="src/assets/imgs/produtores/2.jpg" alt="Vinícola Tierra del Sol">
+                        <ul class="detalhes">
+                            <li><img src="src/assets/imgs/icones/chile.png" alt="origem"> Chile - Valle de Maipo</li>
+                            <li><img src="src/assets/imgs/icones/uva.png" alt="uvas cultivadas"> Cabernet Sauvignon, Carménère</li>
+                            <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt="tipos de vinho"> Tinto seco, Tinto suave</li>
+                            <li><img src="src/assets/imgs/icones/historia.png" alt="historia"> No coração do Vale do Maipo, a Tierra del Sol produz vinhos com intensidade e caráter. Seus vinhedos banhados pelo sol chileno dão origem a tintos expressivos com notas de frutas negras e especiarias.</li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-cartao">
+                        <h4>Bodega O Marquês de Lisboa</h4>
+                        <img src="src/assets/imgs/produtores/3.jpg" alt="Bodega O Marquês de Lisboa">
+                        <ul class="detalhes">
+                            <li><img src="src/assets/imgs/icones/portugal.png" alt="origem"> Portugal - Lisboa</li>
+                            <li><img src="src/assets/imgs/icones/uva.png" alt="uvas cultivadas"> Touriga Nacional, Alvarinho</li>
+                            <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt="tipos de vinho"> Tinto seco, Branco seco</li>
+                            <li><img src="src/assets/imgs/icones/historia.png" alt="historia"> Inspirada na tradição vinícola lusitana, esta bodega portuguesa mescla modernidade e herança. Com vinhos elegantes e aromáticos, é referência em varietais nobres como a Touriga Nacional e o Alvarinho.</li>
+                        </ul>
+                    </div>
+                
+                    <div class="grid-cartao">
+                        <h4>Vinhos de Castilla</h4>
+                        <img src="src/assets/imgs/produtores/5.jpg" alt="Vinhos de Castilla">
+                        <ul class="detalhes">
+                            <li><img src="src/assets/imgs/icones/espanha.png" alt="origem"> Espanha - Castilla-La Mancha</li>
+                            <li><img src="src/assets/imgs/icones/uva.png" alt="uvas cultivadas"> Verdejo, Syrah</li>
+                            <li><img src="src/assets/imgs/icones/garrafa-vinho.png" alt="tipos de vinho"> Branco seco, Tinto suave</li>
+                            <li><img src="src/assets/imgs/icones/historia.png" alt="historia"> No coração da Espanha, Vinhos de Castilla combina tradição e inovação. Suas colheitas entregam vinhos refrescantes e frutados, ideais para harmonizações leves e momentos descontraídos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section><hr>
+            
+            
+            <section class="uteis-container">
+                <div class="armazenagem">
+                    <h2 class="titulos-inicio">Armazenagem com Qualidade</h2>
+                    <img src="src/assets/imgs/vinhosArmazenados.jpg" alt="">
+                    <p>Nossos vinhos são guardados com todo o cuidado que eles merecem: longe da luz direta, em ambientes com temperatura controlada e livre de vibrações. Essa atenção garante que cada garrafa preserve seus aromas e sabores originais até chegar à sua mesa.</p>
+                </div><hr>
+                <div class="harmonizacoes">
+                    <h2 class="titulos-inicio">Harmonize com Pratos Especiais</h2>
+                    <img src="src/assets/imgs/estanteVinhos.jpg" alt="">
+                    <p>Não sabe qual vinho escolher? Veja nossas sugestões:</p>
+                    <ul>
+                        <li><strong>Carnes vermelhas:</strong> Malbec, Cabernet Sauvignon, Syrah</li>
+                        <li><strong>Frango e massas suaves:</strong> Pinot Noir, Chardonnay</li>
+                        <li><strong>Peixes e frutos do mar:</strong> Sauvignon Blanc, espumantes</li>
+                    </ul>
+                </div>
+            </section>
+        </div>  
+
+    </main>
+    
+    <footer>
+        <nav>
+            <div class="cabecalho">
+                <div>
+                    <h3>Vinhos</h3>
+                    <ul>
+                        <li><a href="#">Todos os Produtos</a></li>
+                        <li><a href="#">Tintos</a></li>
+                        <li><a href="#">Brancos</a></li>
+                        <li><a href="#">Rosés</a></li>
+                        <li><a href="#">Espumantes</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Conta Agnello</h3>
+                    <ul>
+                        <li><a href="#">Minha Conta</a></li>
+                        <li><a href="#">Pedidos</a></li>
+                        <li><a href="#">Meus Desejos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Suporte</h3>
+                    <ul>
+                        <li><a href="#">Politica de Frete</a></li>
+                        <li><a href="#">Politica de Privacidade</a></li>
+                        <li><a href="#">Termos e Condições</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Sobre a Agnello</h3>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Nossa Equipe</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">WhatsApp</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <hr>
-        <div class="cabecalho">
-            <div>
-                <h3>Vinhos</h3>
-                <ul>
-                    <li><a href="Todos os Produtos">Todos os Produtos</a></li>
-                    <li><a href="Tintos">Tintos</a></li>
-                    <li><a href="Brancos">Brancos</a></li>
-                    <li><a href="Rosés">Rosés</a></li>
-                    <li><a href="Espumantes">Espumantes</a></li>
-                    <li><a href="Frisantes">Frisantes</a></li>
-                    <li><a href="Sobremesa">Sobremesa</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Conta Agnello</h3>
-                <ul>
-                    <li><a href="#">Minha Conta</a></li>
-                    <li><a href="Pedidos">Pedidos</a></li>
-                    <li><a href="Meus Desejos">Meus Desejos</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Suporte</h3>
-                <ul>
-                    <li><a href="#">Politica de Frete</a></li>
-                    <li><a href="Politica de Privacidade">Politica de Privacidade</a></li>
-                    <li><a href="Termos e Condições">Termos e Condições</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Sobre a Agnello</h3>
-                <ul>
-                    <li><a href="Sobre Nós">Sobre Nós</a></li>
-                    <li><a href="Nossa Equipe">Nossa Equipe</a></li>
-                    <li><a href="Trabalhe Conosco">Trabalhe Conosco</a></li>
-                    <li><a href="Nossas Lojas">Nossas Lojas</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Redes Sociais e Contato</h3>
-                <ul>
-                    <li><a href="Instagram">Instagram</a></li>
-                    <li><a href="Youtube">Youtube</a></li>
-                    <li><a href="WhatsApp">WhatsApp</a></li>
-                </ul>
-            </div>
-        </div><hr>
-    </div>
-    <footer style="text-align: center; padding: 20px; font-size: 14px; color: gray;">
-        A venda de bebidas alcoólicas é proibida para menores de 18 anos. <br>
-        Aprecie com moderação | Se beber, não dirija. <br>
-        © 2025 | Agnello Comércio de Vinhos S.A. <br>
-        Todos os direitos reservados. | Desenvolvido por Lorem5.
+        </nav>
+        
+        <p class="direitosAviso">
+            A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não dirija. <br>
+            © 2025 | Agnello Comércio de Vinhos S.A. <br>
+            Todos os direitos reservados. | Desenvolvido por Lorem5.
+        </p>
     </footer>
 </body>
 </html>
