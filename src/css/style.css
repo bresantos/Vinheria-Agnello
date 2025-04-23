@@ -64,7 +64,7 @@ html, body {
 }
 
 /*------------------------promocoes e produtores----------------------*/
-.promocoes, .produtores, .tintos {
+.promocoes, .produtores, .tintos, .roses, .brancos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
