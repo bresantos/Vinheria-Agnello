@@ -210,4 +210,24 @@ footer {
 }
 
 /* -----------historia----------- */
-#imagem_hist
+#imagem_hist {
+    width: 100%;
+
+}
+
+.cont_hist article{
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255,245,224);
+    font-family: Montserrat, sans-serif;
+}
+
+#caixa_colorida {
+    padding: 20px;
+    margin: 20px;
+    background-color: #b12704;
+    color: rgb(255,245,224);
+    font-family: Montserrat, sans-serif;
+}
