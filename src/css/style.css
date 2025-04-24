@@ -64,7 +64,7 @@ html, body {
 }
 
 /*------------------------promocoes e produtores----------------------*/
-.promocoes, .produtores {
+.promocoes, .produtores, .tintos, .roses, .brancos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
@@ -72,6 +72,16 @@ html, body {
 }
 
 .promocoes .grid-cartao > img {
+    height: 200px;
+    width: auto;
+}
+
+.tintos .grid-cartao > img {
+    height: 200px;
+    width: auto;
+}
+
+.roses .grid-cartao > img {
     height: 200px;
     width: auto;
 }
@@ -168,6 +178,8 @@ html, body {
     display: block;         
     border-radius: 8px; 
 }
+
+
 
 /*---------------------------------------------*/
 footer {
