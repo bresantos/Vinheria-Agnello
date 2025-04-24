@@ -1,0 +1,259 @@
+html, body {
+
+    margin: 0;
+
+}
+
+
+
+/* navbar */
+
+.menu {
+
+    display: flex;
+
+    z-index: 2;
+
+    width: 100%;
+
+    padding: 0px 30px;
+
+    margin: 0px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    box-shadow: 0 0 5px 1px #593627;
+
+}
+
+
+
+.logo-titulo {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+
+
+.logo-titulo img {
+
+    width: 100px;
+
+    display: block;
+
+    margin: 0px 20px 0px 0px;
+
+}
+
+
+
+.logo-titulo h1 {
+
+    font-family: 'Cinzel', serif;
+
+    font-size: 26px;
+
+    color: #593627;
+
+    margin: 0;
+
+}
+
+
+
+.menu ul {
+
+    list-style: none;
+
+    display: flex;
+
+    gap: 20px;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+
+.menu ul li a {
+
+    padding: 2px;
+
+    font-family: Montserrat, sans-serif;
+
+    font-size: 16px;
+
+    color: rgb(0, 0, 0);
+
+    text-decoration: none;
+
+    display: inline-block;
+
+}
+
+/* fim navbar */
+
+
+
+main{
+
+   width: 100%;
+
+   padding: 0;  
+
+}
+
+
+
+main figure{
+
+    z-index: 1;
+
+    top: -100px;
+
+    width: 100%;
+
+    height: auto;
+
+    margin: 0;
+
+    box-shadow: -200px -51px 5px 137px rgba(0,0,0,0.70) inset;
+
+    position: block;
+
+}
+
+
+
+.funcionario{
+
+    display: flex;
+
+    flex-direction:row;
+
+}
+
+
+
+.foto{
+
+    background-position: center;
+
+    background-size: cover;
+
+    border-radius: 12px;
+
+    width: 200px;
+
+    height: 300px;
+
+}
+
+
+
+#foto1{
+
+    background-image: url(/src/assets/imgs/giulio.png);
+
+}
+
+
+
+#foto2{
+
+    background-image: url(/src/assets/imgs/valeria.png);
+
+}
+
+
+
+
+
+/* footer */
+
+
+
+footer {
+
+    margin: 0;
+
+    font-family: Montserrat, sans-serif;
+
+    color: rgb(50,50,50);
+
+    box-shadow: 0 -1px 5px 1px #593627;
+
+}
+
+
+
+.cabecalho {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 20px 30px;
+
+    gap: 30px;
+
+}
+
+
+
+.cabecalho ul {
+
+    list-style: none;
+
+    display: flex;
+
+    flex-direction: column;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+
+.cabecalho h3 {
+
+    margin: 0;
+
+    font-size: 16px;
+
+}
+
+
+
+.cabecalho li a {
+
+    margin: 0;
+
+    font-size: 12px;
+
+    text-decoration: none;
+
+    color: rgb(50,50,50)
+
+}
+
+
+
+.direitosAviso {
+
+    font-size: 12px;
+
+    text-align: center;
+
+}
