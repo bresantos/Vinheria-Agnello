@@ -209,25 +209,52 @@ footer {
     text-align: center;
 }
 
-/* -----------historia----------- */
-#imagem_hist {
+
+/*------------------ GALERIA --------------*/
+
+
+/*   LOGO   */
+#logoAgnello {
+    height: 100px;
+    width: 100px;
+}
+
+.corpo {
+    background-color: rgb(245, 240, 224);
+    color: rgb(74, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 12px rgba(12, 0, 32, 0.1);
+}
+
+.imagem {
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(12, 0, 32, 0.1);
+    background-color: white;
+}
+
+.imagem:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(12, 0, 32, 0.1);
+    animation-duration: 0.3s;
+}
+
+.imagem img {
     width: 100%;
-
-}
-
-.cont_hist article{
-    padding: 20px;
-    margin: 20px;
-    width: fit-content;
-    height: fit-content;
-    background-color: rgb(255,245,224);
-    font-family: Montserrat, sans-serif;
-}
-
-#caixa_colorida {
-    padding: 20px;
-    margin: 20px;
-    background-color: #b12704;
-    color: rgb(255,245,224);
-    font-family: Montserrat, sans-serif;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
