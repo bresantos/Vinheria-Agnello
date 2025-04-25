@@ -62,6 +62,10 @@ html, body {
     display: inline-block;
 }
 
+.menu ul li a:hover{
+  text-decoration: underline;
+}
+
 /* fim navbar */
 main figure.banner {
     width: 100%;
@@ -96,7 +100,7 @@ main figure.banner::after {
     font-family: 'Cinzel', serif;
     font-weight: bold;
     margin-top: 10%; 
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: center;
     margin-top: 2%;
   }
@@ -162,17 +166,74 @@ main figure.banner::after {
   }
 
   .desc {
-    font-size: 20px;
-    color: rgba(0, 0, 0);
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
     margin-top: 5px;
     font-family:  Montserrat, sans-serif;
   }
+
+  .tabela{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+  }
   
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #593627;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+th, td {
+    padding: 16px 20px;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f7f2ef;
+}
+
+tbody tr:hover {
+    background-color: #f0e6e2;
+}
+
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead tr {
+        display: none;
+    }
+
+    td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+}
 
 /* footer */
 footer {
     position: relative; 
-    margin: 0;
+    margin: 5% 0 0 0;
     background-color: rgb(255,245,224);
     text-align: center; 
     padding: 20px; 
