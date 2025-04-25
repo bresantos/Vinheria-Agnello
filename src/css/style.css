@@ -237,33 +237,83 @@ footer {
 .video-container {
     position: relative;
     width: 100%;
-  }
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
 
-  video {
+video {
     width: 100%;
-    border-radius: 8px;
-  }
+    height: auto; 
+    object-fit: cover;
+    display: block;
+}
+  
 
   .overlay {
     position: absolute;
-    top: 50px;
-    margin: 100px;
-    width: 90%;
-    height: 70%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: rgba(148, 148, 148, 0.356);
-    color: white;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
-  }
+    padding: 20px;
+    box-sizing: border-box;
+}
 
-  .overlay h1 {
-    font-size: 2.5em;
-    margin: 100px;
-  }
+.formulario {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 500px;
+    width: 100%;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
 
-  .overlay p {
-    font-size: 1.2em;
-  }
+.formulario h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #593627;
+}
+
+.campo {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input,
+.campo textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+
+.botao {
+    width: 100%;
+    padding: 12px;
+    background-color: #593627;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.7s;
+}
+
+.botao:hover {
+    background-color: #8a1e02;
+}

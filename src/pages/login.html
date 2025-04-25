@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -33,60 +35,28 @@
             <video autoplay muted loop>
                 <source src="/src/assets/imgs/video-vinho.mp4" type="video/mp4">
             </video>
-        
-
             <div class="overlay">
                 <form class="formulario" action="/enviar-dados" method="POST">
                     <h1>Login e Mensagem</h1>
-                
-                    <!-- Input de E-mail -->
                     <div class="campo">
-                      <label for="email">E-mail:</label>
-                      <input 
-                        type="email" 
-                        id="email" 
-                        name="email" 
-                        placeholder="seu@email.com" 
-                        required
-                      >
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
                     </div>
-                
-                    <!-- Input de Senha -->
                     <div class="campo">
-                      <label for="senha">Senha:</label>
-                      <input 
-                        type="password" 
-                        id="senha" 
-                        name="senha" 
-                        placeholder="Digite sua senha" 
-                        minlength="6" 
-                        required
-                      >
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" minlength="6"
+                            required>
                     </div>
-                
-                    <!-- Textarea para Mensagem -->
                     <div class="campo">
-                      <label for="mensagem">Mensagem:</label>
-                      <textarea 
-                        id="mensagem" 
-                        name="mensagem" 
-                        placeholder="Escreva sua mensagem aqui..." 
-                        rows="5"
-                        required
-                      ></textarea>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..." rows="5"
+                            required></textarea>
                     </div>
-                
-                    <!-- Botão de Envio -->
                     <button type="submit" class="botao">Enviar</button>
-                  </form>
+                </form>
             </div>
         </div>
-
-        
-
-
     </main>
-    
     <footer>
         <nav>
             <div class="cabecalho">
@@ -135,12 +105,14 @@
                 </div>
             </div>
         </nav>
-        
+
         <p class="direitosAviso">
-            A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não dirija. <br>
+            A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não
+            dirija. <br>
             © 2025 | Agnello Comércio de Vinhos S.A. <br>
             Todos os direitos reservados. | Desenvolvido por Lorem5.
         </p>
     </footer>
 </body>
+
 </html>
