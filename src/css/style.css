@@ -194,6 +194,7 @@ footer {
     justify-content: space-between;
     padding: 20px 30px;
     gap: 30px;
+    margin-top: 20px;
 }
 
 .cabecalho ul {
@@ -271,14 +272,14 @@ footer {
     margin: 0 auto;
     background-color: white;
     border-radius: 16px;
-    box-shadow: 0 0 12px rgba(12, 0, 32, 0.1);
+    box-shadow: 0 0 12px rgba(12, 0, 32, 0.3);
 }
 
 .imagem {
     transition: all 0.3s;
     overflow: hidden;
     border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(12, 0, 32, 0.1);
+    box-shadow: 0 4px 10px rgba(12, 0, 32, 0.3);
     background-color: white;
 }
 
