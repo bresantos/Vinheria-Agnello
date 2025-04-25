@@ -1,11 +1,22 @@
 html, body {
     max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
 }
 
 /* navbar */
+
 .menu {
-    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255,245,224);
     z-index: 2;
     width: 100%;
     padding: 0px 30px;
@@ -52,26 +63,117 @@ html, body {
 }
 
 /* fim navbar */
-
-main{
-   width: 100%;
-   padding: 0;  
-}
-
-main figure{
-    z-index: 1;
-    top: -100px;
+main figure.banner {
     width: 100%;
-    height: 200px;
+    height: 600px;
     margin: 0;
-    box-shadow: -200px -51px 5px 137px rgba(0,0,0,0.70) inset;
+    overflow: hidden;
+    position: relative;
 }
+
+main figure.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+main figure.banner::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* camada escura */
+    pointer-events: none;
+}
+
+/* EQUIPE */
+.titulos {
+    color: #593627;
+    font-size: 64px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    margin-top: 10%; 
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .container{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin:0;
+    flex: 1;
+  }
+  
+  .equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    gap: 25%;
+    margin-bottom:10%;
+  }
+  
+  .linha-superior, .linha-inferior {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .gradient-border {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+    background: linear-gradient(145deg, rgba(128, 0, 32, 1), rgba(64, 0, 17, 1));
+  }
+  
+  .round-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  h3{
+    display: block;
+    font-size: 1.20em;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: rgba(0, 0, 0);
+    margin-top: 5px;
+    font-family:  Montserrat, sans-serif;
+  }
+
+  .desc {
+    font-size: 20px;
+    color: rgba(0, 0, 0);
+    margin-top: 5px;
+    font-family:  Montserrat, sans-serif;
+  }
+  
 
 /* footer */
 footer {
-    bottom: 0;
-    position: absolute;
+    position: relative; 
     margin: 0;
+    background-color: rgb(255,245,224);
     text-align: center; 
     padding: 20px; 
     font-size: 14px; 
