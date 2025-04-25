@@ -64,7 +64,7 @@ html, body {
 }
 
 /*------------------------promocoes e produtores----------------------*/
-.promocoes, .produtores {
+.promocoes, .produtores, .tintos, .roses, .brancos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
@@ -72,6 +72,16 @@ html, body {
 }
 
 .promocoes .grid-cartao > img {
+    height: 200px;
+    width: auto;
+}
+
+.tintos .grid-cartao > img {
+    height: 200px;
+    width: auto;
+}
+
+.roses .grid-cartao > img {
     height: 200px;
     width: auto;
 }
@@ -169,6 +179,8 @@ html, body {
     border-radius: 8px; 
 }
 
+
+
 /*---------------------------------------------*/
 footer {
     margin: 0;
@@ -207,4 +219,27 @@ footer {
 .direitosAviso {
     font-size: 12px;
     text-align: center;
+}
+
+/* -----------historia----------- */
+#imagem_hist {
+    width: 100%;
+
+}
+
+.cont_hist article{
+    padding: 20px;
+    margin: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(255,245,224);
+    font-family: Montserrat, sans-serif;
+}
+
+#caixa_colorida {
+    padding: 20px;
+    margin: 20px;
+    background-color: #b12704;
+    color: rgb(255,245,224);
+    font-family: Montserrat, sans-serif;
 }
