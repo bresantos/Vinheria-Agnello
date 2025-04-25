@@ -1,41 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vinheria Agnello</title>
-    <link rel="stylesheet" href="src/css/style.css">
-    <link rel="icon" href="src/assets/imgs/logoAgnello.jpg">
+    <link rel="stylesheet" href="/src/css/lucas.css">
+    <link rel="icon" href="/src/assets/imgs/logoAgnello.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="menu">
-                <div class="logo-titulo">
-                    <img src="src/assets/imgs/logoAgnelloSfundo.png" alt="Logo Vinheria Agnello">
-                    <h1>Vinheria Agnello</h1>
+            <div class="container">
+                <div class="menu">
+                    <div class="logo-titulo">
+                        <img src="/src/assets/imgs/logoAgnelloSfundo.png" alt="Logo Vinheria Agnello">
+                        <h1>Vinheria Agnello</h1>
+                    </div>
+                    <ul>
+                        <li><a href="/index.html">Início</a></li>
+                        <li><a href="/src/pages/Historia.html">História</a></li>
+                        <li><a href="/src/pages/Produtos.html">Produtos</a></li>
+                        <li><a href="/src/pages/Galeria.html">Galeria</a></li>
+                        <li><a href="/src/pages/SobreNos.html">Sobre Nós</a></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li><a href="/index.html">Início</a></li>
-                    <li><a href="/src/pages/Historia.html">História</a></li>
-                    <li><a href="/src/pages/Produtos.html">Produtos</a></li>
-                    <li><a href="/src/pages/Galeria.html">Galeria</a></li>
-                    <li><a href="/src/pages/SobreNos.html">Sobre Nós</a></li>
-                </ul>
             </div>
         </nav>
     </header>
     <main>
+        <figure class="banner">
+            <img src="/src/assets/imgs/equipeAgnello/adega.png" alt="imagem de garrafas de vinho">
+        </figure>
 
-        <div class="conteudo">
-           
-        </div>  
+        <div id="Equipe" class='container'>
+            <p class="titulos">Conheça a equipe Agnello</p>
+            <div class="equipe">
+                <!-- Linha dos ficticios -->
+                <div class="linha-inferior">
+                    <!-- Membro Giulio-->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/giulio.png" alt="giulio" class="round-image">
+                        </div>
+                        <h3>Giulio Agnello</h3>
+                        <h6 class="desc">Dono da vinheria</h6>
+                    </div>
 
+                    <!-- Membro funcionaria fic-->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/funcionaria.png" alt="funcionária"
+                                class="round-image">
+                        </div>
+                        <h3>Vitória Agnello</h3>
+                        <h6 class="desc">Atendente da vinheria</h6>
+                    </div>
+                </div>
+                <div class="linha-superior">
+                    <!-- Membro 1 -->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/Isabella.png" alt="Isabella de Deus"
+                                class="round-image">
+                        </div>
+                        <h3>Isabella de Deus</h3>
+                        <h6 class="desc">Coordenadora de logística</h6>
+                    </div>
+
+                    <!-- Membro 2 -->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/clara.png" alt="Clara Costa" class="round-image">
+                        </div>
+                        <h3>Clara Costa</h3>
+                        <h6 class="desc">Diretora de Recursos Humanos</h6>
+                    </div>
+
+                    <!-- Membro 3 -->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/brenda.png" alt="Brenda dos Santos"
+                                class="round-image">
+                        </div>
+                        <h3>Brenda dos Santos</h3>
+                        <h6 class="desc">Tesoureira</h6>
+                    </div>
+                </div>
+                <!-- Linha inferior -->
+                <div class="linha-inferior">
+                    <!-- Membro 4 -->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/lamin.png" alt="Lamin" class="round-image">
+                        </div>
+                        <h3>Pedro H. Lamin</h3>
+                        <h6 class="desc">Gerente de vendas</h6>
+                    </div>
+
+                    <!-- Membro 5 -->
+                    <div class="team-member">
+                        <div class="gradient-border">
+                            <img src="/src/assets/imgs/equipeAgnello/lucas.jpg" alt="Lucas Santana" class="round-image">
+                        </div>
+                        <h3>Lucas Santana</h3>
+                        <h6 class="desc">Sommelier e atendente da vinheria</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="titulos">Equipe da Vinheria Agnello</h1>
+        <div class="tabela">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Responsável</th>
+                        <th>Cargo</th>
+                        <th>Responsabilidades</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Responsável">Gíulio</td>
+                        <td data-label="Cargo">Dono </td>
+                        <td data-label="Responsabilidades">Tomar decisões estratégicas, controlar investimentos e
+                            supervisionar todos os setores</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Pedro H. Lamin</td>
+                        <td data-label="Cargo">Gerente de Vendas</td>
+                        <td data-label="Responsabilidades">Liderar a equipe comercial, definir metas e manter
+                            relacionamento com clientes VIP</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Lucas Santana</td>
+                        <td data-label="Cargo">Sommelier</td>
+                        <td data-label="Responsabilidades">Sugerir rótulos, realizar degustações e orientar sobre
+                            harmonizações</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Brenda dos Santos</td>
+                        <td data-label="Cargo">Tesoureira</td>
+                        <td data-label="Responsabilidades">Controlar pagamentos, recebimentos, lucros e impostos</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Clara Costa</td>
+                        <td data-label="Cargo">Diretora de Recursos Humanos</td>
+                        <td data-label="Responsabilidades">Criar campanhas, gerir redes sociais e promoções</td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Vitória Agnello</td>
+                        <td data-label="Cargo">Atendente da Loja</td>
+                        <td data-label="Responsabilidades">Recepcionar clientes, apresentar produtos e fechar vendas
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Responsável">Isabella de Deus</td>
+                        <td data-label="Cargo">Coordenadora de Logística</td>
+                        <td data-label="Responsabilidades">Separar pedidos, embalar com cuidado e garantir entregas
+                            pontuais</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
-    
+
+    <!-- ### FOOTER ### -->
+
     <footer>
         <nav>
             <div class="cabecalho">
@@ -84,12 +218,13 @@
                 </div>
             </div>
         </nav>
-        
         <p class="direitosAviso">
-            A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não dirija. <br>
+            A venda de bebidas alcoólicas é proibida para menores de 18 anos. Aprecie com moderação. Se beber, não
+            dirija. <br>
             © 2025 | Agnello Comércio de Vinhos S.A. <br>
             Todos os direitos reservados. | Desenvolvido por Lorem5.
         </p>
     </footer>
 </body>
+
 </html>
