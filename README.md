@@ -14,26 +14,26 @@ A Vinheria Agnello é uma empresa familiar que atua no mercado de vinhos em São
 
 ### 📕 Identidade Visual
 
-- Cores e Fontes:
-  - Principal <br>
-    ´rgb(128,0,32)´ - bordô
+🎨 Cores usadas no CSS
 
-  - Fundo <br>
-    ´rgb(255,245,224)´ - creme
+-Cor principal:
 
-  - Detalhe1 <br>
-    ´rgb(0,51,32)´ - musgo
+#593627, marrom café.
 
-  - Detalhe2 <br>
-    ´rgb(204,153,102)´ - dourado
+-Cor de fundo:
 
-  - Espaços "negativos" <br>
-    ´rgb(255,255,255)´ - branco
+rgb(255,245,224), creme .
 
-  - Texto
-    -   h1 <br>
-        Baskerville
-        ´rgb(0,0,0)´ - preto
-    -   h2 <br>
-        Merriweather
-        ´rgb(50,50,50)´ - preto
+-Espaços negativos:
+
+rgb(255,255,255), branco 
+
+🖋 Fontes usadas no CSS
+
+-h1:
+
+Cinzel
+
+-h2, h3,h4,h5,h6:
+
+Merriweather
