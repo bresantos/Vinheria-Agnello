@@ -6,7 +6,7 @@
 - Clara | Historia
 - Isa  | Galeria
 - Lucas | Sobre Nós 
-- Pedro  | Produtos
+- Pedro Henrique Lamin Rodrigues | Produtos
 
 ## 🧠 Descrição
 
