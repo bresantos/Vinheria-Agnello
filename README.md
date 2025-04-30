@@ -2,9 +2,9 @@
 
 ## 👩🏻‍💻🧑🏽‍💻 Nossa equipe:
 
-- Brenda | Pagina principal
-- Clara | Historia
-- Isa  | Galeria
+- Brenda Santos | Pagina principal
+- Clara Barboza Costa| Historia
+- Isabela de Deus  | Galeria
 - Lucas Santana Silva | Sobre Nós 
 - Pedro Henrique Lamin Rodrigues | Produtos
 
