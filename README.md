@@ -5,7 +5,7 @@
 - Brenda | Pagina principal
 - Clara | Historia
 - Isa  | Galeria
-- Lucas | Sobre Nós 
+- Lucas Santana Silva | Sobre Nós 
 - Pedro Henrique Lamin Rodrigues | Produtos
 
 ## 🧠 Descrição
