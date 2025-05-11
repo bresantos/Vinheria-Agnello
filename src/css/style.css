@@ -3,15 +3,6 @@ html, body {
     margin: 0;
 }
 
-.menu {
-    padding: 0px 30px;
-    margin: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 0 5px 1px #593627;
-}
-
 .logo-titulo {
     display: flex;
     align-items: center;
@@ -30,6 +21,17 @@ html, body {
     margin: 0;
 }
 
+/*------------------menu----------------------------------*/
+
+.menu {
+    padding: 0px 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px 1px #593627;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
@@ -46,11 +48,17 @@ html, body {
     text-decoration: none;
     display: inline-block;
 }
+
+.menu a {
+  color: #333;
+  text-decoration: none;
+}
+
 /*---------------------geral conteudo------------------------*/
 
 .conteudo {
     padding: 0px 30px;
-    margin: 20px 0px;
+    margin: 20px 20px;
     font-family: Montserrat, sans-serif;
     background-color: rgb(255,245,224);
 }
@@ -102,15 +110,10 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: transform 0.2s;
 }
 
 .grid-cartao h4 {
     margin: 0px 0px 10px 0px;
-}
-
-.grid-cartao:hover {
-    transform: scale(1.02);
 }
 
 .grid-cartao img {
@@ -248,8 +251,8 @@ footer {
 .galeria {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 5 colunas */
-    gap: 20px; /* espaçamento entre imagens */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -260,7 +263,6 @@ footer {
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
 }
 
 /* --------- login ---------- */
@@ -281,7 +283,7 @@ video {
 }
   
 
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -342,21 +344,7 @@ video {
     border-radius: 6px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.7s;
 }
-
-.botao:hover {
-    background-color: #8a1e02;
-    font-family: 'Montserrat', sans-serif;
-    place-items: center;
-  }
-
-  .overlay h1 {
-    font-size: 2.5em;
-    margin: 10px;
-  }
-
-
 
 button {
     display: block;
@@ -409,6 +397,3 @@ button {
     font-family: 'Montserrat', sans-serif;
 }
 
-.caixa-depoimento::placeholder {
-    color: #999;
-}
