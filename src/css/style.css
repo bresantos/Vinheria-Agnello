@@ -1,3 +1,7 @@
+/* Importação de estilo.css */
+
+@import "/src/css/efeitos.css";
+
 /* Estilos gerais */
 html, body {
     margin: 0;
