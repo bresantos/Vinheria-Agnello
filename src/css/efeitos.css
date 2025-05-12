@@ -42,7 +42,12 @@
 
 /* ------------galeria-----------------*/
 .galeria img{
-    transition: transform 0.3s;
+    transition: height 1s, width 1s;
+}
+
+.galeria img:hover{
+  height: 700px;
+  width: 200%;
 }
 
 
